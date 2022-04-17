@@ -22,4 +22,19 @@ Simple usage:
     optimizer.run()
 ```
 
+Sample output:
+```
+Iteration 1/1
+Progress |##                              | 6.25% [0 / 1]s	Current Max value: 79.00 % -> -m: 0.0000, -n: 0.0000
+Progress |####                            | 12.50% [1 / 10]s	Current Max value: 82.65 % -> -m: 0.0000, -n: 0.3333
+Progress |######                          | 18.75% [2 / 13]s	Current Max value: 86.32 % -> -m: 0.0000, -n: 0.6667
+Progress |##########                      | 31.25% [5 / 13]s	Current Max value: 90.74 % -> -m: 0.3333, -n: 0.0000
+Progress |############                    | 37.50% [7 / 12]s	Current Max value: 90.83 % -> -m: 0.3333, -n: 0.3333
+Progress |##############                  | 43.75% [8 / 11]s	Current Max value: 90.91 % -> -m: 0.3333, -n: 0.6667
+Progress |################################| 100.00% [23 / 0]s
+Max value: 90.9100 % -> -m: 0.3333, -n: 0.6667
+	-m Range 0.0000 - 0.6667
+	-n Range 0.3333 - 1.0000
+```
+
 This library is inspired in the python [argparse](https://docs.python.org/3/library/argparse.html) module.
