@@ -90,7 +90,7 @@ class PavOptimizer:
 
             iteration_str = 'Iteration {}'.format(i + 1)
             if self.m_iteration_num > 0:
-                iteration_str += '/{}'.format(i + 1, self.m_iteration_num)
+                iteration_str += '/{}'.format(self.m_iteration_num)
             print(iteration_str)
             i += 1
 
